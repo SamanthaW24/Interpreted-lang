@@ -28,6 +28,7 @@ LEGILIMENS	Reads the character of input and pushes it numerical value onto the s
 
 
 
+
 python hogwarts.py examples/reversestring.hogw
 
 user inputs characters and when when no charater is entered, outputs charaters in reverse order
