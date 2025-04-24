@@ -31,14 +31,17 @@ while pc >= 0 and pc < len(lines):
     elif instr == "LUMOS":
         a = pop()
         stack.append(a + 1)
+    elif instr == "REDUCTO":
+        a = pop()
+        stack.append(a-1)
+    elif instr == "CONFRINGO":
+        a = pop()
+        if(a != 0):
+            stack.append(a)
     elif instr == "ACCIO":
         a = pop()
         stack.append(a)
         stack.append(a)
-    elif instr == "CONFUNDUS":
-        a = pop()
-        b = pop()
-        stack.append(b - a)
     elif instr == "OBLIVIATE":
         try:
             stack.append(ord(input("")[0]))   
@@ -54,11 +57,12 @@ while pc >= 0 and pc < len(lines):
     elif instr == "STUPEFY":
         print(int(pop()), end="", flush=True)
     elif instr == "RIDDIKULUS":
-        a = pop()
+        a = pop()  # Pop the top value, which is the counter
+        stack.append(a)
         try:
-            line = int(parts[1]) - 1  # -1 because list indexes start at 0
+            line = int(parts[1]) - 1  # Convert to 0-based index
             if a == 0:
-                pc = line - 1  # -1 again because we're incrementing pc each instruction
+                pc = line - 1  # Jump to the specified line if counter is 0
         except:
             err("Error: Invalid instruction argument for RIDDIKULUS")
     elif instr == "EXPELLIARMUS":
@@ -77,10 +81,11 @@ while pc >= 0 and pc < len(lines):
             break
     elif instr == "LEGILIMENS":
         try:
-            num = int(input()[0])  # Reads the first character, assumes it's a digit
-            stack.append(num)
-        except (ValueError, IndexError):
-            stack.append(0)  # Fallback to 0 if input is invalid or empty
+            num = int(input().strip())
+        except:
+            num = 0
+        stack.append(num)
+
 
     pc += 1
 

@@ -1,12 +1,14 @@
-OBLIVIATE
-ACCIO
-RIDDIKULUS 7
-NOX
-RIDDIKULUS 1
-
-EXPELLIARMUS
-ACCIO
-RIDDIKULUS 13
-ENNERVATE
-NOX
-RIDDIKULUS 8
+NOX             # puts a zero on the stack
+CONFRINGO       # get rid of the zero on stack if there
+OBLIVIATE       # takes user charater input
+RIDDIKULUS 7    # if user input is zero go to line 7
+NOX             # if not zero add zero
+RIDDIKULUS 2    # go to line 2
+ACCIO           # makes extra 0
+EXPELLIARMUS    # puts zero on the bottom
+CONFRINGO       # get rid of top zero
+RIDDIKULUS 14   # if zero go to 14
+ENNERVATE       # print ascii charater
+NOX             # add zero to stack
+RIDDIKULUS 9    # go to line 9
+AVADA KENDAVRA  # end program

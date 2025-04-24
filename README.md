@@ -2,9 +2,11 @@ NOX	Push 0 onto the stack
 
 LUMOS	Add 1 to the top value of the stack
 
-ACCIO	Duplicates the top value of the stack
+REDUCTO Subrates 1 from the top value of the stack
 
-CONFUNDUS	Pops the top two vales of the stack and pushes them back on in opposite order
+CONFRINGO if the top value is 0 it removes it 
+
+ACCIO	Duplicates the top value of the stack
 
 OBLIVIATE	Takes 1 character of input and pushes the ascii code to the stack 
 
