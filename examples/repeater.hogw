@@ -4,7 +4,7 @@ EXPELLIARMUS        # [3,A]
 ACCIO               # [3,A,A]
 WINGARDIUM LEVIOSA  # [A,A,3]
 CONFRINGO           # [A,A,NUM] OR [A,A,NUM,0],IF TOP = 0, REMOVE IT 
-RIDDIKULUS 20       # [A,A,NUM] IF NUM IS 0, GO TO LINE 17
+RIDDIKULUS 15       # [A,A,NUM] IF NUM IS 0, GO TO LINE 15
 REDUCTO             # [A,A,NUM-1]
 EXPELLIARMUS        # [NUM,A,A]
 ENNERVATE           # [NUM,A]
