@@ -3,13 +3,14 @@ LEGILIMENS          # [A,3]
 EXPELLIARMUS        # [3,A]
 ACCIO               # [3,A,A]
 WINGARDIUM LEVIOSA  # [A,A,3]
+NOX
 CONFRINGO           # [A,A,NUM] OR [A,A,NUM,0],IF TOP = 0, REMOVE IT 
-RIDDIKULUS 15       # [A,A,NUM] IF NUM IS 0, GO TO LINE 15
+RIDDIKULUS 16       # [A,A,NUM] IF NUM IS 0, GO TO LINE 16
 REDUCTO             # [A,A,NUM-1]
 EXPELLIARMUS        # [NUM,A,A]
 ENNERVATE           # [NUM,A]
 ACCIO               # [NUM,A,A]
 WINGARDIUM LEVIOSA  # [A,A,NUM]
 NOX                 # [A,A,NUM,0]
-RIDDIKULUS 6        # [A,A,NUM,0] IF NUM IS GO TO LINE 6
+RIDDIKULUS 7        # [A,A,NUM,0] IF NUM IS GO TO LINE 7
 AVADA KEDAVRA
