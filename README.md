@@ -19,21 +19,21 @@
 
 python hogwarts.py examples/reversestring.hogw
 
-user inputs characters and when when no charater is entered, outputs charaters in reverse order
+    - user inputs characters and when when no charater is entered, outputs charaters in reverse order
 
 python hogwarts.py examples/cat.hogw
 
-user inputs charaters, outputs the same character
+    - user inputs charaters, outputs the same character
 
 python Hogwarts.py examples/helloworld.hogw
 
-Outputs Hello, World!
+    - Outputs Hello, World!
 
 python Hogwarts.py examples/repeater.hogw
 
-user inputs charater and number, outputs that chaarater number times
+    - user inputs charater and number, outputs that chaarater number times
 
 python Hogwarts.py examples/multiply.hogw
 
-user inputs two numbers, outputs the product of the two numbers
+    - user inputs two numbers, outputs the product of the two numbers
 
