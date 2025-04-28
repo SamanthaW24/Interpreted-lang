@@ -1,31 +1,18 @@
-NOX	Push 0 onto the stack
-
-LUMOS	Add 1 to the top value of the stack
-
-REDUCTO Subrates 1 from the top value of the stack
-
-CONFRINGO if the top value is 0 it removes it 
-
-ACCIO	Duplicates the top value of the stack
-
-OBLIVIATE	Takes 1 character of input and pushes the ascii code to the stack 
-
-GEMINIO	Pops the top two values and the stack, mutpliys then and then pushes the result 
-
-ENNERVATE	Pops the top value and prints it as a ascii character
-
-STUPEFY	Pops the top value of the stack and prints it as a integer
-
-RIDDIKULUS n	Pops the top of the stack. If it is 0, jumps to the nth line of code
-
-EXPELLIARMUS	Pops the top of the stack and pushes it to the bottom
-
-WINGARDIUM LEVIOSA	Remove the bottom value and the stake and push it to the top
-
-AVADA KENDAVRA	Terminates the program execution
-
-LEGILIMENS	Reads the character of input and pushes it numerical value onto the stack 
-
+Spell | Description
+NOX | Pushes 0 onto the stack.
+LUMOS | Adds 1 to the top value of the stack.
+REDUCTO | Subtracts 1 from the top value of the stack.
+CONFRINGO | If the top value is 0, removes it from the stack.
+ACCIO | Duplicates the top value of the stack.
+OBLIVIATE | Takes 1 character of input and pushes its ASCII code onto the stack.
+GEMINIO | Pops the top two values, multiplies them, and pushes the result onto the stack.
+ENNERVATE | Pops the top value and prints it as an ASCII character.
+STUPEFY | Pops the top value and prints it as an integer.
+RIDDIKULUS n | Pops the top value. If it is 0, jumps to the nth line of code.
+EXPELLIARMUS | Pops the top value and pushes it to the bottom of the stack.
+WINGARDIUM LEVIOSA | Removes the bottom value and pushes it to the top of the stack.
+AVADA KEDAVRA | Terminates the program execution.
+LEGILIMENS | Reads a character of input and pushes its numerical ASCII value onto the stack.
 
 
 
